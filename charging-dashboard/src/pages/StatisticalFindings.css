@@ -1,0 +1,16 @@
+.sf-row1 {
+  margin-bottom: 16px;
+}
+
+.sf-row2,
+.sf-row3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 900px) {
+  .sf-row2,
+  .sf-row3 { grid-template-columns: 1fr; }
+}

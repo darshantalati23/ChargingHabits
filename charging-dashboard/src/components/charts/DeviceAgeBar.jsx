@@ -1,0 +1,26 @@
+import {
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
+  ResponsiveContainer, LabelList,
+} from 'recharts';
+import { tooltipStyle, axisProps, gridProps } from './shared';
+import ChartCard from '../ChartCard';
+
+export default function DeviceAgeBar({ data }) {
+  if (!data) return null;
+  const filtered = data.filter(d => d.count > 0);
+  return (
+    <ChartCard title="Device Age Distribution">
+      <ResponsiveContainer width="100%" height={220}>
+        <BarChart data={filtered} margin={{ top: 16, right: 10, left: -10, bottom: 5 }}>
+          <CartesianGrid {...gridProps} vertical={false} />
+          <XAxis dataKey="age" {...axisProps} />
+          <YAxis {...axisProps} allowDecimals={false} />
+          <Tooltip {...tooltipStyle} formatter={v => [v + ' respondents', 'Count']} />
+          <Bar dataKey="count" fill="var(--chart-1)" radius={[4, 4, 0, 0]} maxBarSize={64}>
+            <LabelList dataKey="count" position="top" style={{ fill: 'var(--text-secondary)', fontSize: 11 }} />
+          </Bar>
+        </BarChart>
+      </ResponsiveContainer>
+    </ChartCard>
+  );
+}

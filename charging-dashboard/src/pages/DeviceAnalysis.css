@@ -1,0 +1,21 @@
+.da-row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.da-row2 {
+  margin-bottom: 16px;
+}
+
+.da-row3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .da-row1,
+  .da-row3 { grid-template-columns: 1fr; }
+}

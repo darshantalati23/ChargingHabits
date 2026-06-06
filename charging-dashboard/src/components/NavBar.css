@@ -1,0 +1,112 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28px;
+  height: 52px;
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border-subtle);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.navbar-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--accent-blue);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 4px;
+}
+
+.nav-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 4px 12px;
+  font-size: 14px;
+  transition: color 150ms;
+}
+
+.nav-link:hover { color: var(--text-primary); }
+
+.nav-link.active {
+  color: var(--accent-blue);
+  border-bottom: 2px solid var(--accent-blue);
+  padding-bottom: 2px;
+  font-weight: 500;
+}
+
+.navbar-badge {
+  font-size: 13px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+/* Hamburger — hidden on desktop */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding: 6px;
+  border-radius: var(--radius-sm);
+}
+
+.bar {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--text-secondary);
+  border-radius: 2px;
+  transition: transform 200ms, opacity 200ms;
+}
+
+.bar-top.open  { transform: translateY(7px) rotate(45deg); }
+.bar-mid.open  { opacity: 0; }
+.bar-bot.open  { transform: translateY(-7px) rotate(-45deg); }
+
+/* Mobile dropdown */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 8px 0;
+  position: sticky;
+  top: 52px;
+  z-index: 99;
+}
+
+.mobile-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 12px 28px;
+  font-size: 14px;
+  transition: background 150ms, color 150ms;
+}
+
+.mobile-link:hover { background: var(--bg-card); color: var(--text-primary); }
+
+.mobile-link.active {
+  color: var(--accent-blue);
+  font-weight: 500;
+  border-left: 2px solid var(--accent-blue);
+  padding-left: 26px;
+}
+
+/* Mobile breakpoint */
+@media (max-width: 600px) {
+  .navbar-links  { display: none; }
+  .navbar-badge  { display: none; }
+  .hamburger     { display: flex; }
+  .mobile-menu   { display: flex; }
+}

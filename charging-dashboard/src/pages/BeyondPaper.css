@@ -1,0 +1,27 @@
+.bp-row1,
+.bp-row3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.bp-row2,
+.bp-row4 {
+  margin-bottom: 16px;
+}
+
+.bp-row3-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .bp-row1,
+  .bp-row3 { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .screenshot-mini-grid { grid-template-columns: 1fr !important; }
+}

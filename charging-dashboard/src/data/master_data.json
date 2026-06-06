@@ -1,0 +1,4535 @@
+{
+  "a1_threshold_hist": [
+    {
+      "bin": "0-10%",
+      "count": 21
+    },
+    {
+      "bin": "10-20%",
+      "count": 45
+    },
+    {
+      "bin": "20-30%",
+      "count": 89
+    },
+    {
+      "bin": "30-40%",
+      "count": 33
+    },
+    {
+      "bin": "40-50%",
+      "count": 21
+    },
+    {
+      "bin": "50-60%",
+      "count": 3
+    },
+    {
+      "bin": "60-70%",
+      "count": 3
+    },
+    {
+      "bin": "70-80%",
+      "count": 0
+    },
+    {
+      "bin": "80-90%",
+      "count": 2
+    },
+    {
+      "bin": "90-100%",
+      "count": 4
+    }
+  ],
+  "a1_median": 20.0,
+  "a1_iqr_low": 15.0,
+  "a1_iqr_high": 30.0,
+  "a2_frequency": [
+    {
+      "times_per_day": "0.5",
+      "count": 1
+    },
+    {
+      "times_per_day": "1.0",
+      "count": 134
+    },
+    {
+      "times_per_day": "2.0",
+      "count": 48
+    }
+  ],
+  "a3_device_age": [
+    {
+      "age": "<1yr",
+      "count": 111
+    },
+    {
+      "age": "1-2yr",
+      "count": 46
+    },
+    {
+      "age": "2-3yr",
+      "count": 42
+    },
+    {
+      "age": "3-4yr",
+      "count": 0
+    },
+    {
+      "age": "4+yr",
+      "count": 23
+    },
+    {
+      "age": "Unknown",
+      "count": 0
+    }
+  ],
+  "a4_wattage": [
+    {
+      "wattage": "<18W",
+      "count": 22
+    },
+    {
+      "wattage": "18-25W",
+      "count": 70
+    },
+    {
+      "wattage": "25-30W",
+      "count": 9
+    },
+    {
+      "wattage": "30-45W",
+      "count": 47
+    },
+    {
+      "wattage": "45-65W",
+      "count": 20
+    },
+    {
+      "wattage": "65W+",
+      "count": 52
+    }
+  ],
+  "a5_risk": [
+    {
+      "category": "low",
+      "count": 105,
+      "percent": 47.3
+    },
+    {
+      "category": "medium",
+      "count": 104,
+      "percent": 46.8
+    },
+    {
+      "category": "high",
+      "count": 13,
+      "percent": 5.9
+    }
+  ],
+  "a6_wattage_threshold_scatter": [
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 30.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 20.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 35.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 10.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 40.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 40.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 10.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 28,
+      "wattage_label": "25-30W",
+      "threshold_pct": 25.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 25.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 35.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 28,
+      "wattage_label": "25-30W",
+      "threshold_pct": 40.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 35.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 1.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 28,
+      "wattage_label": "25-30W",
+      "threshold_pct": 5.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 5.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 35.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 29.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 40.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 40.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 5.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 25.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 28,
+      "wattage_label": "25-30W",
+      "threshold_pct": 50.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 5.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 1.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 40.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 30.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 5.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 45.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 30.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 30.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 40.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 30.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 15.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 28,
+      "wattage_label": "25-30W",
+      "threshold_pct": 25.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 5.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 40.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 15.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 28,
+      "wattage_label": "25-30W",
+      "threshold_pct": 18.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 1.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 25.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 40.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 15.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 30.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 60.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 5.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 5.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 10.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 5.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 25.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 25.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 80.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 10.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 100.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 65.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 5.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 20.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 28,
+      "wattage_label": "25-30W",
+      "threshold_pct": 25.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 50.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 46.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 1.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 90.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 25.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 40.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 5.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 25.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 23.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 60.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 80.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 40.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 40.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 50.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 1.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 95.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 40.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 1.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 35.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 22.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 40.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 40.0,
+      "risk": "high"
+    },
+    {
+      "wattage_w": 28,
+      "wattage_label": "25-30W",
+      "threshold_pct": 40.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 25.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 24.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 30.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 30.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 30.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 45.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 18.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 40.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 28,
+      "wattage_label": "25-30W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 35.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 55,
+      "wattage_label": "45-65W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 45.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 8.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 25.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 1.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 15,
+      "wattage_label": "<18W",
+      "threshold_pct": 90.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 15.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 35.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 25.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 25.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 80,
+      "wattage_label": "65W+",
+      "threshold_pct": 1.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 20.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 22,
+      "wattage_label": "18-25W",
+      "threshold_pct": 10.0,
+      "risk": "medium"
+    },
+    {
+      "wattage_w": 38,
+      "wattage_label": "30-45W",
+      "threshold_pct": 20.0,
+      "risk": "low"
+    }
+  ],
+  "a7_overnight": [
+    {
+      "label": "Yes",
+      "count": 16
+    },
+    {
+      "label": "No",
+      "count": 206
+    }
+  ],
+  "a8_personas": [
+    {
+      "name": "Convenience Chargers",
+      "percent": 45,
+      "description": "Charge when convenient, no fixed routine. Most common group."
+    },
+    {
+      "name": "Opportunistic Chargers",
+      "percent": 25,
+      "description": "Plug in whenever a power source is available regardless of battery level."
+    },
+    {
+      "name": "Power Users",
+      "percent": 17,
+      "description": "High wattage chargers, old and new phones, heavy battery stress."
+    },
+    {
+      "name": "20-80 Rule Followers",
+      "percent": 13,
+      "description": "Charge between 20-85%, disconnect before full. Best battery health."
+    }
+  ],
+  "b1_overnight_by_age": [
+    {
+      "age": "<1yr",
+      "overnight_yes": 6,
+      "overnight_no": 105,
+      "overnight_pct": 5.4
+    },
+    {
+      "age": "1-2yr",
+      "overnight_yes": 5,
+      "overnight_no": 41,
+      "overnight_pct": 10.9
+    },
+    {
+      "age": "2-3yr",
+      "overnight_yes": 2,
+      "overnight_no": 40,
+      "overnight_pct": 4.8
+    },
+    {
+      "age": "4+yr",
+      "overnight_yes": 3,
+      "overnight_no": 20,
+      "overnight_pct": 13.0
+    }
+  ],
+  "b1_chi2_p": 0.3903,
+  "b1_significant": false,
+  "b2_usage_risk_heatmap": [
+    {
+      "usage": "calls & texts",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts",
+      "risk": "low",
+      "count": 3
+    },
+    {
+      "usage": "calls & texts",
+      "risk": "medium",
+      "count": 2
+    },
+    {
+      "usage": "calls & texts, heavy gaming",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, heavy gaming",
+      "risk": "low",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, heavy gaming",
+      "risk": "medium",
+      "count": 2
+    },
+    {
+      "usage": "calls & texts, social media",
+      "risk": "high",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, social media",
+      "risk": "low",
+      "count": 11
+    },
+    {
+      "usage": "calls & texts, social media",
+      "risk": "medium",
+      "count": 12
+    },
+    {
+      "usage": "calls & texts, social media, basic photo/video editing",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, social media, basic photo/video editing",
+      "risk": "low",
+      "count": 2
+    },
+    {
+      "usage": "calls & texts, social media, basic photo/video editing",
+      "risk": "medium",
+      "count": 2
+    },
+    {
+      "usage": "calls & texts, social media, email's, data reviews,  sales related, stodk related work",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, social media, email's, data reviews,  sales related, stodk related work",
+      "risk": "low",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, social media, email's, data reviews,  sales related, stodk related work",
+      "risk": "medium",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, social media, heavy gaming",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, social media, heavy gaming",
+      "risk": "low",
+      "count": 4
+    },
+    {
+      "usage": "calls & texts, social media, heavy gaming",
+      "risk": "medium",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, social media, heavy gaming, basic photo/video editing, watching youtube\ud83e\udd13",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, social media, heavy gaming, basic photo/video editing, watching youtube\ud83e\udd13",
+      "risk": "low",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, social media, heavy gaming, basic photo/video editing, watching youtube\ud83e\udd13",
+      "risk": "medium",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, social media, spotify",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, social media, spotify",
+      "risk": "low",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, social media, spotify",
+      "risk": "medium",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing",
+      "risk": "low",
+      "count": 5
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing",
+      "risk": "medium",
+      "count": 2
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, basic photo/video editing",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, basic photo/video editing",
+      "risk": "low",
+      "count": 3
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, basic photo/video editing",
+      "risk": "medium",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, heavy gaming",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, heavy gaming",
+      "risk": "low",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, heavy gaming",
+      "risk": "medium",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media",
+      "risk": "high",
+      "count": 10
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media",
+      "risk": "low",
+      "count": 39
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media",
+      "risk": "medium",
+      "count": 45
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media,",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media,",
+      "risk": "low",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media,",
+      "risk": "medium",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, 7-8 hours screentime",
+      "risk": "high",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, 7-8 hours screentime",
+      "risk": "low",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, 7-8 hours screentime",
+      "risk": "medium",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic gaming",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic gaming",
+      "risk": "low",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic gaming",
+      "risk": "medium",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic photo/video editing",
+      "risk": "high",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic photo/video editing",
+      "risk": "low",
+      "count": 14
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic photo/video editing",
+      "risk": "medium",
+      "count": 14
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic photo/video editing,",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic photo/video editing,",
+      "risk": "low",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic photo/video editing,",
+      "risk": "medium",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic photo/video editing, mobile hotspot",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic photo/video editing, mobile hotspot",
+      "risk": "low",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic photo/video editing, mobile hotspot",
+      "risk": "medium",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic photo/video editing, study",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic photo/video editing, study",
+      "risk": "low",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, basic photo/video editing, study",
+      "risk": "medium",
+      "count": 2
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, heavy gaming",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, heavy gaming",
+      "risk": "low",
+      "count": 12
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, heavy gaming",
+      "risk": "medium",
+      "count": 5
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, heavy gaming, basic photo/video editing",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, heavy gaming, basic photo/video editing",
+      "risk": "low",
+      "count": 2
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, heavy gaming, basic photo/video editing",
+      "risk": "medium",
+      "count": 2
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, heavy gaming, basic photo/video editing,",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, heavy gaming, basic photo/video editing,",
+      "risk": "low",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, heavy gaming, basic photo/video editing,",
+      "risk": "medium",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, heavy gaming, video recording",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, heavy gaming, video recording",
+      "risk": "low",
+      "count": 1
+    },
+    {
+      "usage": "calls & texts, videos' & images' viewing, social media, heavy gaming, video recording",
+      "risk": "medium",
+      "count": 0
+    },
+    {
+      "usage": "heavy gaming",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "heavy gaming",
+      "risk": "low",
+      "count": 0
+    },
+    {
+      "usage": "heavy gaming",
+      "risk": "medium",
+      "count": 1
+    },
+    {
+      "usage": "social media",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "social media",
+      "risk": "low",
+      "count": 4
+    },
+    {
+      "usage": "social media",
+      "risk": "medium",
+      "count": 2
+    },
+    {
+      "usage": "social media, heavy gaming",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "social media, heavy gaming",
+      "risk": "low",
+      "count": 0
+    },
+    {
+      "usage": "social media, heavy gaming",
+      "risk": "medium",
+      "count": 1
+    },
+    {
+      "usage": "videos' & images' viewing",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "videos' & images' viewing",
+      "risk": "low",
+      "count": 2
+    },
+    {
+      "usage": "videos' & images' viewing",
+      "risk": "medium",
+      "count": 2
+    },
+    {
+      "usage": "videos' & images' viewing, social media",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "usage": "videos' & images' viewing, social media",
+      "risk": "low",
+      "count": 0
+    },
+    {
+      "usage": "videos' & images' viewing, social media",
+      "risk": "medium",
+      "count": 2
+    }
+  ],
+  "b2_chi2_p": 0.4762,
+  "b3_age_wattage": [
+    {
+      "age": "<1yr",
+      "<18W": 6,
+      "18-25W": 37,
+      "25-30W": 2,
+      "30-45W": 32,
+      "45-65W": 5,
+      "65W+": 29
+    },
+    {
+      "age": "1-2yr",
+      "<18W": 1,
+      "18-25W": 19,
+      "25-30W": 2,
+      "30-45W": 8,
+      "45-65W": 3,
+      "65W+": 11
+    },
+    {
+      "age": "2-3yr",
+      "<18W": 8,
+      "18-25W": 10,
+      "25-30W": 4,
+      "30-45W": 3,
+      "45-65W": 7,
+      "65W+": 10
+    },
+    {
+      "age": "4+yr",
+      "<18W": 7,
+      "18-25W": 4,
+      "25-30W": 1,
+      "30-45W": 4,
+      "45-65W": 5,
+      "65W+": 2
+    }
+  ],
+  "b4_threshold_by_usage": {
+    "calls & texts": {
+      "min": 10.0,
+      "q1": 10.0,
+      "median": 20.0,
+      "q3": 25.0,
+      "max": 30.0,
+      "count": 5
+    },
+    "calls & texts, heavy gaming": {
+      "min": 1.0,
+      "q1": 6.75,
+      "median": 12.5,
+      "q3": 18.25,
+      "max": 24.0,
+      "count": 2
+    },
+    "calls & texts, social media": {
+      "min": 5.0,
+      "q1": 20.0,
+      "median": 20.0,
+      "q3": 36.25,
+      "max": 100.0,
+      "count": 24
+    },
+    "calls & texts, social media, basic photo/video editing": {
+      "min": 15.0,
+      "q1": 18.75,
+      "median": 20.0,
+      "q3": 22.5,
+      "max": 30.0,
+      "count": 4
+    },
+    "calls & texts, social media, email's, data reviews,  sales related, stodk related work": {
+      "min": 10.0,
+      "q1": 10.0,
+      "median": 10.0,
+      "q3": 10.0,
+      "max": 10.0,
+      "count": 1
+    },
+    "calls & texts, social media, heavy gaming": {
+      "min": 20.0,
+      "q1": 20.0,
+      "median": 25.0,
+      "q3": 40.0,
+      "max": 40.0,
+      "count": 5
+    },
+    "calls & texts, social media, heavy gaming, basic photo/video editing, watching youtube\ud83e\udd13": {
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "count": 1
+    },
+    "calls & texts, social media, spotify": {
+      "min": 10.0,
+      "q1": 10.0,
+      "median": 10.0,
+      "q3": 10.0,
+      "max": 10.0,
+      "count": 1
+    },
+    "calls & texts, videos' & images' viewing": {
+      "min": 20.0,
+      "q1": 20.0,
+      "median": 40.0,
+      "q3": 42.5,
+      "max": 50.0,
+      "count": 7
+    },
+    "calls & texts, videos' & images' viewing, basic photo/video editing": {
+      "min": 20.0,
+      "q1": 20.0,
+      "median": 20.0,
+      "q3": 30.0,
+      "max": 40.0,
+      "count": 3
+    },
+    "calls & texts, videos' & images' viewing, heavy gaming": {
+      "min": 20.0,
+      "q1": 20.0,
+      "median": 20.0,
+      "q3": 20.0,
+      "max": 20.0,
+      "count": 1
+    },
+    "calls & texts, videos' & images' viewing, social media": {
+      "min": 1.0,
+      "q1": 15.0,
+      "median": 20.0,
+      "q3": 25.0,
+      "max": 90.0,
+      "count": 94
+    },
+    "calls & texts, videos' & images' viewing, social media,": {
+      "min": 10.0,
+      "q1": 10.0,
+      "median": 10.0,
+      "q3": 10.0,
+      "max": 10.0,
+      "count": 1
+    },
+    "calls & texts, videos' & images' viewing, social media, 7-8 hours screentime": {
+      "min": 40.0,
+      "q1": 40.0,
+      "median": 40.0,
+      "q3": 40.0,
+      "max": 40.0,
+      "count": 1
+    },
+    "calls & texts, videos' & images' viewing, social media, basic gaming": {
+      "min": 80.0,
+      "q1": 80.0,
+      "median": 80.0,
+      "q3": 80.0,
+      "max": 80.0,
+      "count": 1
+    },
+    "calls & texts, videos' & images' viewing, social media, basic photo/video editing": {
+      "min": 1.0,
+      "q1": 20.0,
+      "median": 25.0,
+      "q3": 30.0,
+      "max": 90.0,
+      "count": 29
+    },
+    "calls & texts, videos' & images' viewing, social media, basic photo/video editing,": {
+      "min": 10.0,
+      "q1": 17.5,
+      "median": 25.0,
+      "q3": 32.5,
+      "max": 40.0,
+      "count": 2
+    },
+    "calls & texts, videos' & images' viewing, social media, basic photo/video editing, mobile hotspot": {
+      "min": 20.0,
+      "q1": 20.0,
+      "median": 20.0,
+      "q3": 20.0,
+      "max": 20.0,
+      "count": 1
+    },
+    "calls & texts, videos' & images' viewing, social media, basic photo/video editing, study": {
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "count": 2
+    },
+    "calls & texts, videos' & images' viewing, social media, heavy gaming": {
+      "min": 10.0,
+      "q1": 20.0,
+      "median": 20.0,
+      "q3": 29.0,
+      "max": 40.0,
+      "count": 17
+    },
+    "calls & texts, videos' & images' viewing, social media, heavy gaming, basic photo/video editing": {
+      "min": 10.0,
+      "q1": 17.5,
+      "median": 20.0,
+      "q3": 22.5,
+      "max": 30.0,
+      "count": 4
+    },
+    "calls & texts, videos' & images' viewing, social media, heavy gaming, basic photo/video editing,": {
+      "min": 60.0,
+      "q1": 60.0,
+      "median": 60.0,
+      "q3": 60.0,
+      "max": 60.0,
+      "count": 1
+    },
+    "calls & texts, videos' & images' viewing, social media, heavy gaming, video recording": {
+      "min": 25.0,
+      "q1": 25.0,
+      "median": 25.0,
+      "q3": 25.0,
+      "max": 25.0,
+      "count": 1
+    },
+    "heavy gaming": {
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "count": 1
+    },
+    "social media": {
+      "min": 15.0,
+      "q1": 22.5,
+      "median": 30.0,
+      "q3": 37.5,
+      "max": 95.0,
+      "count": 6
+    },
+    "videos' & images' viewing": {
+      "min": 1.0,
+      "q1": 11.5,
+      "median": 22.5,
+      "q3": 31.25,
+      "max": 35.0,
+      "count": 4
+    },
+    "videos' & images' viewing, social media": {
+      "min": 10.0,
+      "q1": 11.25,
+      "median": 12.5,
+      "q3": 13.75,
+      "max": 15.0,
+      "count": 2
+    }
+  },
+  "b5_kmeans_scatter": [
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "high"
+    },
+    {
+      "threshold": 35.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "high"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "high"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 25.0,
+      "frequency": 2.0,
+      "device_age": 2.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 2.0,
+      "device_age": 1.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 2.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 35.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 5.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 2.0,
+      "device_age": 2.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 5.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "high"
+    },
+    {
+      "threshold": 25.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 50.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 5.0,
+      "frequency": 0.5,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 1.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 5.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 45.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 2.0,
+      "device_age": 1.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 2.0,
+      "device_age": 2.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "high"
+    },
+    {
+      "threshold": 25.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 5.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "high"
+    },
+    {
+      "threshold": 18.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 25.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "high"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 60.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 3,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 2.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 5.0,
+      "frequency": 2.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "high"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 2.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 5.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 2.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "high"
+    },
+    {
+      "threshold": 5.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 2.0,
+      "device_age": 1.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 25.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 25.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 2.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "high"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 100.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 3,
+      "risk": "low"
+    },
+    {
+      "threshold": 65.0,
+      "frequency": 2.0,
+      "device_age": 4.5,
+      "cluster": 3,
+      "risk": "medium"
+    },
+    {
+      "threshold": 5.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 1.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "high"
+    },
+    {
+      "threshold": 50.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 46.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 1.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 90.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 3,
+      "risk": "medium"
+    },
+    {
+      "threshold": 25.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 2.0,
+      "device_age": 1.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 5.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "high"
+    },
+    {
+      "threshold": 25.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 23.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 80.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 3,
+      "risk": "medium"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 1.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 1.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 35.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 22.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 2.0,
+      "device_age": 1.5,
+      "cluster": 1,
+      "risk": "high"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 2.0,
+      "device_age": 2.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 25.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 2.0,
+      "device_age": 1.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 1.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 24.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 1.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 30.0,
+      "frequency": 2.0,
+      "device_age": 1.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 45.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 18.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 40.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 2.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 45.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 8.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 25.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 1.0,
+      "frequency": 2.0,
+      "device_age": 1.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 90.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 3,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 15.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "medium"
+    },
+    {
+      "threshold": 35.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 25.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 25.0,
+      "frequency": 1.0,
+      "device_age": 2.5,
+      "cluster": 0,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 0.5,
+      "cluster": 2,
+      "risk": "low"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 2.0,
+      "device_age": 0.5,
+      "cluster": 1,
+      "risk": "medium"
+    },
+    {
+      "threshold": 10.0,
+      "frequency": 1.0,
+      "device_age": 4.5,
+      "cluster": 0,
+      "risk": "medium"
+    },
+    {
+      "threshold": 20.0,
+      "frequency": 1.0,
+      "device_age": 1.5,
+      "cluster": 2,
+      "risk": "low"
+    }
+  ],
+  "b5_cluster_centers": [
+    {
+      "cluster": 0,
+      "threshold": 18.3,
+      "frequency": 1.1,
+      "device_age": 3.4
+    },
+    {
+      "cluster": 1,
+      "threshold": 22.9,
+      "frequency": 2.0,
+      "device_age": 1.2
+    },
+    {
+      "cluster": 2,
+      "threshold": 22.2,
+      "frequency": 1.0,
+      "device_age": 0.8
+    },
+    {
+      "cluster": 3,
+      "threshold": 80.8,
+      "frequency": 1.3,
+      "device_age": 1.8
+    }
+  ],
+  "b6_energy_waste": [
+    {
+      "risk": "high",
+      "avg_waste_kwh": 0.0158
+    },
+    {
+      "risk": "low",
+      "avg_waste_kwh": 0.0
+    },
+    {
+      "risk": "medium",
+      "avg_waste_kwh": 0.0015
+    }
+  ],
+  "b7_pearson_r": 0.013,
+  "b7_pearson_p": 0.862,
+  "b7_scatter": [
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 0.5
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 2.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 0.5,
+      "frequency": 2.0
+    },
+    {
+      "device_age": 4.5,
+      "frequency": 1.0
+    },
+    {
+      "device_age": 1.5,
+      "frequency": 1.0
+    }
+  ],
+  "b8_logreg": {
+    "cv_accuracy_mean": 0.978,
+    "cv_accuracy_std": 0.021,
+    "feature_importance": [
+      {
+        "feature": "plug_in_threshold",
+        "coefficient": -1.448
+      },
+      {
+        "feature": "charge_frequency",
+        "coefficient": 1.208
+      },
+      {
+        "feature": "device_age",
+        "coefficient": 1.243
+      },
+      {
+        "feature": "overnight_charging",
+        "coefficient": 1.854
+      },
+      {
+        "feature": "random_charging",
+        "coefficient": 0.0
+      }
+    ]
+  },
+  "b8_confusion_matrix": [
+    [
+      169,
+      0
+    ],
+    [
+      3,
+      10
+    ]
+  ],
+  "b9_wattage_risk": [
+    {
+      "wattage": "18-25W",
+      "risk": "high",
+      "count": 6
+    },
+    {
+      "wattage": "18-25W",
+      "risk": "low",
+      "count": 29
+    },
+    {
+      "wattage": "18-25W",
+      "risk": "medium",
+      "count": 35
+    },
+    {
+      "wattage": "25-30W",
+      "risk": "high",
+      "count": 0
+    },
+    {
+      "wattage": "25-30W",
+      "risk": "low",
+      "count": 3
+    },
+    {
+      "wattage": "25-30W",
+      "risk": "medium",
+      "count": 6
+    },
+    {
+      "wattage": "30-45W",
+      "risk": "high",
+      "count": 4
+    },
+    {
+      "wattage": "30-45W",
+      "risk": "low",
+      "count": 25
+    },
+    {
+      "wattage": "30-45W",
+      "risk": "medium",
+      "count": 18
+    },
+    {
+      "wattage": "45-65W",
+      "risk": "high",
+      "count": 1
+    },
+    {
+      "wattage": "45-65W",
+      "risk": "low",
+      "count": 7
+    },
+    {
+      "wattage": "45-65W",
+      "risk": "medium",
+      "count": 12
+    },
+    {
+      "wattage": "65W+",
+      "risk": "high",
+      "count": 1
+    },
+    {
+      "wattage": "65W+",
+      "risk": "low",
+      "count": 32
+    },
+    {
+      "wattage": "65W+",
+      "risk": "medium",
+      "count": 19
+    },
+    {
+      "wattage": "<18W",
+      "risk": "high",
+      "count": 1
+    },
+    {
+      "wattage": "<18W",
+      "risk": "low",
+      "count": 9
+    },
+    {
+      "wattage": "<18W",
+      "risk": "medium",
+      "count": 12
+    }
+  ],
+  "b9_chi2_p": 0.3196,
+  "b10_rule_adoption": [
+    {
+      "label": "Follows 20-80 rule",
+      "count": 90,
+      "percent": 40.7
+    },
+    {
+      "label": "Does not follow",
+      "count": 131,
+      "percent": 59.3
+    }
+  ],
+  "b11_threshold_percentiles": [
+    {
+      "percentile": 0,
+      "threshold_pct": 1.0
+    },
+    {
+      "percentile": 10,
+      "threshold_pct": 10.0
+    },
+    {
+      "percentile": 20,
+      "threshold_pct": 10.0
+    },
+    {
+      "percentile": 30,
+      "threshold_pct": 20.0
+    },
+    {
+      "percentile": 40,
+      "threshold_pct": 20.0
+    },
+    {
+      "percentile": 50,
+      "threshold_pct": 20.0
+    },
+    {
+      "percentile": 60,
+      "threshold_pct": 20.0
+    },
+    {
+      "percentile": 70,
+      "threshold_pct": 29.0
+    },
+    {
+      "percentile": 80,
+      "threshold_pct": 30.0
+    },
+    {
+      "percentile": 90,
+      "threshold_pct": 40.0
+    },
+    {
+      "percentile": 100,
+      "threshold_pct": 100.0
+    }
+  ],
+  "c1_screen_on_dist": [
+    {
+      "bin": "<1h",
+      "count": 25
+    },
+    {
+      "bin": "1-2h",
+      "count": 12
+    },
+    {
+      "bin": "2-3h",
+      "count": 17
+    },
+    {
+      "bin": "3-4h",
+      "count": 14
+    },
+    {
+      "bin": "4-5h",
+      "count": 14
+    },
+    {
+      "bin": "5h+",
+      "count": 30
+    }
+  ],
+  "c1_median_screen_on_mins": 183,
+  "c2_drain_rate_dist": [
+    {
+      "bin": "<5%/h",
+      "count": 61
+    },
+    {
+      "bin": "5-10%/h",
+      "count": 31
+    },
+    {
+      "bin": "10-15%/h",
+      "count": 7
+    },
+    {
+      "bin": "15-20%/h",
+      "count": 5
+    },
+    {
+      "bin": "20-25%/h",
+      "count": 4
+    },
+    {
+      "bin": "25%+/h",
+      "count": 7
+    }
+  ],
+  "c3_charge_time_dist": [
+    {
+      "period": "Night (9pm-5am)",
+      "count": 39
+    },
+    {
+      "period": "Afternoon (12-5pm)",
+      "count": 39
+    },
+    {
+      "period": "Early Morning (5-9am)",
+      "count": 34
+    },
+    {
+      "period": "Morning (9am-12pm)",
+      "count": 28
+    },
+    {
+      "period": "Evening (5-9pm)",
+      "count": 24
+    }
+  ],
+  "c4_validation": {
+    "compared_pairs": 140,
+    "matches_within_15pct": 29,
+    "match_percent": 20.7
+  },
+  "screenshot_summary": {
+    "total_processed": 220,
+    "valid_full_day": 191,
+    "valid_week_view": 9,
+    "eliminated": 20
+  },
+  "ai_observations": [
+    "Nearly 95% of users fall into the low or medium risk categories for battery health, suggesting that the majority of young adults are managing their charging habits effectively.",
+    "Despite the popular advice to keep batteries between 20-80%, nearly 60% of young adults do not follow this practice, showing a clear gap between battery health awareness and daily behavior.",
+    "Overnight charging is surprisingly rare in this age group, with only 16 out of 222 respondents leaving their phones plugged in while they sleep.",
+    "The average user begins charging their phone when the battery drops to 20%, which aligns perfectly with the standard threshold recommended to prevent deep-discharge stress.",
+    "Device age has almost no impact on how often a person charges their phone, as indicated by the near-zero correlation between the two factors.",
+    "A small but distinct group of users\u2014represented by cluster 3\u2014waits until their battery hits 80% before plugging in, marking them as extreme high-threshold chargers.",
+    "Energy waste is significantly higher for the high-risk group, who lose an average of 0.0158 kWh compared to zero waste among those classified as low-risk.",
+    "The K-Means analysis reveals that users with newer phones, less than a year old, tend to charge twice as frequently as those with older devices.",
+    "A clear majority of users\u201461 out of 115\u2014experience a very efficient battery drain rate of less than 5% per hour, indicating that most devices are operating under manageable loads.",
+    "Technical specifications like charger wattage show no statistically significant relationship with when a user decides to plug in their phone, suggesting personal habit drives behavior more than hardware.",
+    "Predictive modeling is highly accurate for this dataset, with a 97.8% success rate in classifying charging habits based on the available metrics.",
+    "Even among the highest battery drainers, only a small fraction of users experience a rapid loss of over 25% per hour, suggesting that most respondents have relatively healthy device performance."
+  ],
+  "meta": {
+    "total_raw_respondents": 224,
+    "valid_respondents": 222,
+    "dropped_respondents": 2,
+    "median_threshold": 20.0,
+    "high_risk_pct": 5.9,
+    "medium_risk_pct": 46.8,
+    "pearson_r": 0.013,
+    "pearson_p": 0.862,
+    "logreg_accuracy": 0.978
+  }
+}

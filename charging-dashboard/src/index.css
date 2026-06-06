@@ -1,0 +1,60 @@
+:root {
+  /* Backgrounds */
+  --bg-base:       #06080f;
+  --bg-surface:    #0d1117;
+  --bg-card:       #111827;
+  --bg-card-hover: #161f2e;
+  --bg-input:      #1a2235;
+
+  /* Borders */
+  --border-subtle: #1e2d42;
+  --border-active: #2d4a6e;
+
+  /* Brand accent: electric blue + vivid orange (complementary pair) */
+  --accent-blue:   #38bdf8;
+  --accent-orange: #fb923c;
+  --accent-violet: #a78bfa;
+
+  /* Semantic: risk */
+  --risk-high:     #f43f5e;
+  --risk-medium:   #fb923c;
+  --risk-low:      #34d399;
+
+  /* Chart palette (use in this order) */
+  --chart-1: #38bdf8;
+  --chart-2: #a78bfa;
+  --chart-3: #34d399;
+  --chart-4: #fb923c;
+  --chart-5: #f43f5e;
+  --chart-6: #fbbf24;
+
+  /* Typography */
+  --text-primary:   #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted:     #475569;
+  --text-accent:    #38bdf8;
+
+  /* Tooltip */
+  --tooltip-bg:     #1e293b;
+  --tooltip-border: #334155;
+  --tooltip-text:   #f1f5f9;
+
+  /* Misc */
+  --radius-card: 12px;
+  --radius-sm:   6px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-surface); }
+::-webkit-scrollbar-thumb { background: var(--border-active); border-radius: 3px; }
