@@ -58,7 +58,7 @@ export default function ThresholdBoxPlot({ data }) {
           <rect
             x={PAD.left + xScale(20)} y={PAD.top}
             width={xScale(60)} height={chartH - PAD.top - PAD.bottom}
-            fill="rgba(56,189,248,0.06)"
+            fill="rgba(14,165,233,0.06)"
           />
           {TICKS.map(t => (
             <g key={t}>
@@ -90,7 +90,7 @@ export default function ThresholdBoxPlot({ data }) {
                 <rect
                   x={x(item.q1)} y={boxTop}
                   width={Math.max(x(item.q3) - x(item.q1), 2)} height={bxH}
-                  fill="rgba(56,189,248,0.15)" stroke="var(--accent-blue)" strokeWidth={1.5} rx={2}
+                  fill="rgba(14,165,233,0.15)" stroke="var(--accent-blue)" strokeWidth={1.5} rx={2}
                 />
                 <line x1={x(item.median)} y1={boxTop} x2={x(item.median)} y2={boxTop + bxH} stroke="var(--accent-violet)" strokeWidth={2.5} />
                 <text x={x(item.max) + 5} y={cy + 4} fill="var(--text-muted)" fontSize={9}>n={item.count}</text>

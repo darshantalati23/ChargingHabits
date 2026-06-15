@@ -5,7 +5,7 @@ import {
 import { tooltipStyle, axisProps, gridProps } from './shared';
 import ChartCard from '../ChartCard';
 
-const RISK_COLORS = { high: '#f43f5e', medium: '#fb923c', low: '#34d399' };
+const RISK_COLORS = { high: '#ef4444', medium: '#f97316', low: '#10b981' };
 const RISK_ORDER  = ['low', 'medium', 'high'];
 
 export default function EnergyWasteBar({ data }) {

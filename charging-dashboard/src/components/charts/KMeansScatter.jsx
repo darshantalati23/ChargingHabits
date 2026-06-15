@@ -5,7 +5,7 @@ import {
 import { axisProps, gridProps } from './shared';
 import ChartCard from '../ChartCard';
 
-const CLUSTER_COLORS = { 0: '#38bdf8', 1: '#a78bfa', 2: '#34d399', 3: '#fb923c' };
+const CLUSTER_COLORS = { 0: '#0284c7', 1: '#7c3aed', 2: '#059669', 3: '#ea580c' };
 const CLUSTER_LABELS = { 0: 'Cluster 0', 1: 'Cluster 1', 2: 'Cluster 2', 3: 'Cluster 3 (outliers)' };
 
 function CenterDot({ cx, cy, payload }) {
@@ -14,7 +14,7 @@ function CenterDot({ cx, cy, payload }) {
   return (
     <polygon
       points={`${cx},${cy - s} ${cx + s},${cy} ${cx},${cy + s} ${cx - s},${cy}`}
-      fill={color} stroke="#fff" strokeWidth={2}
+      fill={color} stroke="var(--bg-card)" strokeWidth={2}
     />
   );
 }

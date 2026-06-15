@@ -5,7 +5,7 @@ import FeatureImportanceBar from '../components/charts/FeatureImportanceBar';
 import ConfusionMatrix from '../components/charts/ConfusionMatrix';
 import WattageRiskHeatmap from '../components/charts/WattageRiskHeatmap';
 
-const row = { display: 'grid', gap: 16, marginBottom: 16 };
+const row = { gridTemplateColumns: 'repeat(auto-fit, minmax(min(340px, 100%), 1fr))' };
 
 export default function StatisticalFindings() {
   const { data, loading, error } = useData();
@@ -15,11 +15,11 @@ export default function StatisticalFindings() {
   if (!data)   return null;
 
   return (
-    <div style={{ padding: '28px 28px 48px' }}>
-      <h1 style={{ fontSize: 20, fontWeight: 700, color: 'var(--text-primary)', marginBottom: 24, marginTop: 0 }}>Statistical Findings</h1>
+    <div className="page-shell">
+      <h1 className="page-title">Statistical Findings</h1>
 
       {/* Row 1 — K-Means scatter, full width */}
-      <div style={{ marginBottom: 16 }}>
+      <div className="dashboard-row" style={{ display: 'block' }}>
         <KMeansScatter
           points={data.b5_kmeans_scatter}
           centers={data.b5_cluster_centers}
@@ -27,7 +27,7 @@ export default function StatisticalFindings() {
       </div>
 
       {/* Row 2 — Pearson scatter | Feature importance */}
-      <div style={{ ...row, gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))' }}>
+      <div className="dashboard-row" style={row}>
         <PearsonScatter
           data={data.b7_scatter}
           pearsonR={data.b7_pearson_r}
@@ -37,7 +37,7 @@ export default function StatisticalFindings() {
       </div>
 
       {/* Row 3 — Confusion matrix | Wattage-risk heatmap */}
-      <div style={{ ...row, gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))' }}>
+      <div className="dashboard-row" style={row}>
         <ConfusionMatrix matrix={data.b8_confusion_matrix} />
         <WattageRiskHeatmap data={data.b9_wattage_risk} chiP={data.b9_chi2_p} />
       </div>

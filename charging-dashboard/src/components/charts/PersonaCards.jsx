@@ -1,7 +1,7 @@
 import ChartCard from '../ChartCard';
 
 const ACCENT_COLORS = ['var(--accent-blue)', 'var(--accent-orange)', 'var(--risk-high)', 'var(--risk-low)'];
-const ACCENT_BG    = ['rgba(56,189,248,0.08)', 'rgba(251,146,60,0.08)', 'rgba(244,63,94,0.08)', 'rgba(52,211,153,0.08)'];
+const ACCENT_BG    = ['rgba(14,165,233,0.08)', 'rgba(249,115,22,0.08)', 'rgba(239,68,68,0.08)', 'rgba(16,185,129,0.08)'];
 
 export default function PersonaCards({ data }) {
   if (!data) return null;

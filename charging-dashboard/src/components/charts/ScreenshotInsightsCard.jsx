@@ -53,7 +53,7 @@ export default function ScreenshotInsightsCard({ summary, c1, c2, c3, validation
 
       {validation && (
         <div style={{
-          background: 'rgba(244,63,94,0.06)', border: '1px solid rgba(244,63,94,0.25)',
+          background: 'rgba(239,68,68,0.06)', border: '1px solid rgba(239,68,68,0.25)',
           borderLeft: '4px solid var(--risk-high)', borderRadius: 8,
           padding: '14px 18px',
           display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap',

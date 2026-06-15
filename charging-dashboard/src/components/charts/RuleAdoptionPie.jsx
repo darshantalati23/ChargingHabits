@@ -2,7 +2,7 @@ import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recha
 import { tooltipStyle } from './shared';
 import ChartCard from '../ChartCard';
 
-const COLORS = ['#34d399', '#fb923c'];
+const COLORS = ['#10b981', '#f97316'];
 const RADIAN = Math.PI / 180;
 
 const LABEL_FN = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {

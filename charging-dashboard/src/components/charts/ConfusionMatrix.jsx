@@ -11,8 +11,8 @@ export default function ConfusionMatrix({ matrix }) {
   const f1        = precision + recall > 0 ? 2 * precision * recall / (precision + recall) : 0;
 
   const cells = [
-    [cell('rgba(52,211,153,0.08)', '#34d399', 'TN', TN), cell('rgba(244,63,94,0.08)', '#f43f5e', 'FP', FP)],
-    [cell('rgba(244,63,94,0.08)', '#f43f5e', 'FN', FN), cell('rgba(52,211,153,0.08)', '#34d399', 'TP', TP)],
+    [cell('rgba(16,185,129,0.08)', 'var(--risk-low)', 'TN', TN), cell('rgba(239,68,68,0.08)', 'var(--risk-high)', 'FP', FP)],
+    [cell('rgba(239,68,68,0.08)', 'var(--risk-high)', 'FN', FN), cell('rgba(16,185,129,0.08)', 'var(--risk-low)', 'TP', TP)],
   ];
 
   const th = {

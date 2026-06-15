@@ -3,6 +3,7 @@ export const cardStyle = {
   borderRadius: 'var(--radius-card)',
   border: '1px solid var(--border-subtle)',
   borderTop: '2px solid var(--accent-blue)',
+  boxShadow: 'var(--shadow-card)',
   padding: '20px 22px 16px',
   height: '100%',
 };
@@ -24,10 +25,11 @@ export const tooltipStyle = {
     color: 'var(--tooltip-text)',
     fontSize: 12,
     padding: '8px 12px',
+    boxShadow: 'var(--shadow-hover)',
   },
   labelStyle: { color: 'var(--text-accent)', fontWeight: 600, marginBottom: 4 },
   itemStyle: { color: 'var(--tooltip-text)' },
-  cursor: { fill: 'rgba(56,189,248,0.06)' },
+  cursor: { fill: 'rgba(14,165,233,0.06)' },
 };
 
 export const scatterTooltipStyle = {

@@ -1,9 +1,10 @@
 const ChartCard = ({ title, subtitle, children, accent = 'var(--accent-blue)', style = {} }) => (
-  <div style={{
+  <div className="chart-card-hover" style={{
     background: 'var(--bg-card)',
     borderRadius: 'var(--radius-card)',
     border: '1px solid var(--border-subtle)',
     borderTop: `2px solid ${accent}`,
+    boxShadow: 'var(--shadow-card)',
     padding: '20px 22px 16px',
     display: 'flex',
     flexDirection: 'column',

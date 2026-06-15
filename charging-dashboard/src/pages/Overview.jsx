@@ -28,13 +28,13 @@ export default function Overview() {
   };
 
   return (
-    <div style={{ padding: '28px 28px 48px' }}>
-      <h1 style={{ fontSize: 20, fontWeight: 700, color: 'var(--text-primary)', marginBottom: 24, marginTop: 0 }}>Overview</h1>
+    <div className="page-shell">
+      <h1 className="page-title">Overview</h1>
 
       {/* Row 1 — stat cards */}
       <div className="overview-stats">
         {STAT_CARDS.map(({ key, label, sublabel, unit, accent }) => (
-          <div key={key} style={{
+          <div key={key} className="chart-card-hover" style={{
             background: 'var(--bg-card)',
             border: '1px solid var(--border-subtle)',
             borderRadius: 'var(--radius-card)',
@@ -44,6 +44,8 @@ export default function Overview() {
             gap: 6,
             position: 'relative',
             overflow: 'hidden',
+            boxShadow: 'var(--shadow-card)',
+            transition: 'transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease',
           }}>
             <div style={{
               position: 'absolute', left: 0, top: 0, bottom: 0, width: 3,

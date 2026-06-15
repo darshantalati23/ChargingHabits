@@ -2,7 +2,7 @@ import ChartCard from '../ChartCard';
 
 const RISK_ORDER  = ['low', 'medium', 'high'];
 const RISK_LABELS = { low: 'Low', medium: 'Medium', high: 'High' };
-const RISK_COLORS = { low: '#34d399', medium: '#fb923c', high: '#f43f5e' };
+const RISK_COLORS = { low: '#10b981', medium: '#f97316', high: '#ef4444' };
 
 function groupUsage(usage) {
   const u = usage.toLowerCase();
@@ -35,7 +35,7 @@ export default function UsageRiskHeatmap({ data, chiP }) {
 
   function cellBg(count) {
     if (count === 0) return 'transparent';
-    return `rgba(56,189,248,${(0.08 + (count / maxCount) * 0.82).toFixed(2)})`;
+    return `rgba(14,165,233,${(0.08 + (count / maxCount) * 0.82).toFixed(2)})`;
   }
   function textColor(count) {
     return count / maxCount > 0.45 ? 'var(--text-primary)' : 'var(--text-secondary)';
@@ -90,7 +90,7 @@ export default function UsageRiskHeatmap({ data, chiP }) {
           Chi-square p = <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>{chiP}</span>
         </span>
         {isSignificant
-          ? <span style={{ background: 'rgba(52,211,153,0.1)', color: '#34d399', padding: '2px 9px', borderRadius: 10, fontSize: 11, fontWeight: 600 }}>Significant</span>
+          ? <span style={{ background: 'rgba(16,185,129,0.1)', color: 'var(--risk-low)', padding: '2px 9px', borderRadius: 10, fontSize: 11, fontWeight: 600 }}>Significant</span>
           : <span style={{ background: 'var(--bg-surface)', color: 'var(--text-muted)', padding: '2px 9px', borderRadius: 10, fontSize: 11, border: '1px solid var(--border-subtle)' }}>Not significant (p &gt; 0.05)</span>
         }
       </div>

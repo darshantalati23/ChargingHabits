@@ -7,12 +7,12 @@ import ChartCard from '../ChartCard';
 
 const WATTAGE_CATS = ['<18W', '18-25W', '25-30W', '30-45W', '45-65W', '65W+'];
 const WATTAGE_COLORS = {
-  '<18W':   '#38bdf8',
-  '18-25W': '#a78bfa',
-  '25-30W': '#34d399',
-  '30-45W': '#fb923c',
-  '45-65W': '#f43f5e',
-  '65W+':   '#fbbf24',
+  '<18W':   '#0284c7',
+  '18-25W': '#7c3aed',
+  '25-30W': '#059669',
+  '30-45W': '#ea580c',
+  '45-65W': '#dc2626',
+  '65W+':   '#ca8a04',
 };
 
 function legendFormatter(value) {

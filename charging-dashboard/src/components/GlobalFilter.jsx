@@ -9,17 +9,17 @@ const AGE_TO_NUMERIC = { '<1yr': 0.5, '1-2yr': 1.5, '2-3yr': 2.5, '3-4yr': 3.5, 
 const USAGE_TO_CLUSTER = { Normal: 2, Gaming: 1, 'Heavy Editing': 0 };
 
 const selectStyle = {
-  background: '#0f1117',
-  color: '#e2e8f0',
-  border: '1px solid #2d3048',
-  borderRadius: '6px',
-  padding: '4px 8px',
+  background: 'var(--bg-surface)',
+  color: 'var(--text-primary)',
+  border: '1px solid var(--border-subtle)',
+  borderRadius: 'var(--radius-sm)',
+  padding: '5px 28px 5px 9px',
   fontSize: '0.82rem',
   cursor: 'pointer',
-  outline: 'none',
+  boxShadow: '0 1px 2px rgb(15 23 42 / 0.04)',
 };
 
-const labelStyle = { color: '#64748b', fontSize: '0.75rem' };
+const labelStyle = { color: 'var(--text-secondary)', fontSize: '0.75rem', fontWeight: 500 };
 
 export default function GlobalFilter({ filter, setFilter }) {
   const { data } = useData();
@@ -55,7 +55,7 @@ export default function GlobalFilter({ filter, setFilter }) {
   const isActive = filter.type !== 'none';
 
   return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+    <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
         <span style={labelStyle}>Phone Age</span>
         <select style={selectStyle} value={phoneAge} onChange={handleAgeChange}>
@@ -69,14 +69,15 @@ export default function GlobalFilter({ filter, setFilter }) {
         </select>
       </div>
       <span style={{
-        background: isActive ? '#6366f1' : '#1e2035',
-        color: isActive ? '#fff' : '#64748b',
+        background: isActive ? 'var(--accent-blue)' : 'var(--bg-input)',
+        color: isActive ? '#fff' : 'var(--text-secondary)',
+        border: isActive ? '1px solid var(--accent-blue)' : '1px solid var(--border-subtle)',
         borderRadius: '12px',
         padding: '3px 11px',
         fontSize: '0.78rem',
         fontWeight: 600,
         whiteSpace: 'nowrap',
-        transition: 'background 0.2s, color 0.2s',
+        transition: 'background 0.2s, color 0.2s, border-color 0.2s',
       }}>
         n = {matchCount}
       </span>

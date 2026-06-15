@@ -4,7 +4,7 @@ import {
 import { tooltipStyle } from './shared';
 import ChartCard from '../ChartCard';
 
-const COLORS = { Yes: '#f43f5e', No: '#34d399' };
+const COLORS = { Yes: '#ef4444', No: '#10b981' };
 const RADIAN = Math.PI / 180;
 
 const LABEL_FN = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
