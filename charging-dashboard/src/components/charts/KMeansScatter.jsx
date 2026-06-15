@@ -52,12 +52,12 @@ export default function KMeansScatter({ points, centers }) {
       subtitle="Statistically derived — compared to paper's manually-defined personas"
     >
       <ResponsiveContainer width="100%" height={320}>
-        <ScatterChart margin={{ top: 8, right: 20, bottom: 24, left: 0 }}>
+        <ScatterChart margin={{ top: 8, right: 20, bottom: 44, left: 0 }}>
           <CartesianGrid {...gridProps} />
           <XAxis
             dataKey="threshold" type="number" name="Plug-in %" unit="%" domain={[0, 105]}
             {...axisProps}
-            label={{ value: 'Plug-in Threshold (%)', position: 'insideBottom', offset: -14, fill: 'var(--text-muted)', fontSize: 11 }}
+            label={{ value: 'Plug-in Threshold (%)', position: 'insideBottom', offset: 2, fill: 'var(--text-muted)', fontSize: 11 }}
           />
           <YAxis
             dataKey="frequency" type="number" name="Frequency" domain={[0, 2.5]}
@@ -65,7 +65,13 @@ export default function KMeansScatter({ points, centers }) {
             label={{ value: 'Charges per Day', angle: -90, position: 'insideLeft', offset: 12, fill: 'var(--text-muted)', fontSize: 11 }}
           />
           <Tooltip content={<CustomTooltip />} cursor={{ strokeDasharray: '3 3', stroke: 'var(--border-active)' }} />
-          <Legend formatter={legendFormatter} iconType="circle" iconSize={8} />
+          <Legend
+            formatter={legendFormatter}
+            iconType="circle"
+            iconSize={8}
+            verticalAlign="bottom"
+            wrapperStyle={{ bottom: 0 }}
+          />
           {byCluster.map((data, c) => (
             <Scatter key={c} name={CLUSTER_LABELS[c]} data={data} fill={CLUSTER_COLORS[c]} fillOpacity={0.65} r={4} />
           ))}
