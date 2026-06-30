@@ -39,7 +39,7 @@ export default function WattageThresholdScatter({ data }) {
   return (
     <ChartCard title="Wattage vs Plug-In Threshold" subtitle="No significant correlation (r ≈ 0)">
       <ResponsiveContainer width="100%" height={280}>
-        <ScatterChart margin={{ top: 8, right: 20, bottom: 24, left: 0 }}>
+        <ScatterChart margin={{ top: 8, right: 20, bottom: 36, left: 0 }}>
           <CartesianGrid {...gridProps} />
           <XAxis
             dataKey="wattage_w" type="number" name="Wattage" unit="W" domain={[0, 100]}
@@ -52,7 +52,7 @@ export default function WattageThresholdScatter({ data }) {
             label={{ value: 'Plug-in Threshold (%)', angle: -90, position: 'insideLeft', offset: 10, fill: 'var(--text-muted)', fontSize: 11 }}
           />
           <Tooltip content={<CustomTooltip />} cursor={{ strokeDasharray: '3 3', stroke: 'var(--border-active)' }} />
-          <Legend formatter={legendFormatter} iconType="circle" iconSize={8} />
+          <Legend formatter={legendFormatter} iconType="circle" iconSize={8} wrapperStyle={{ paddingTop: 10 }} />
           {Object.entries(byRisk).map(([risk, pts]) => (
             <Scatter key={risk} name={RISK_LABELS[risk]} data={pts} fill={RISK_COLORS[risk]} fillOpacity={0.8} r={5} />
           ))}

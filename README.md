@@ -1,6 +1,6 @@
 # ⚡ Smart Charging Behavior Analysis Dashboard
 
-> A full-stack data analysis platform studying smartphone charging habits across 221 real survey respondents — combining a Python/Colab statistical pipeline, Gemini Vision API screenshot extraction, and a React dashboard with global filtering.
+> A full-stack data analysis platform studying smartphone charging habits across 222 real survey respondents — combining a Python/Colab statistical pipeline, Gemini Vision API screenshot extraction, and a React dashboard with global filtering.
 
 <br>
 
@@ -29,7 +29,7 @@ The result is a zero-backend, data-driven dashboard that runs entirely from a si
 │                        LAYER 1 — ANALYSIS                           │
 │                     Google Colab (Python)                           │
 │                                                                     │
-│  Google Forms CSV ──► pandas cleaning ──► scipy stats              │
+│  Google Forms CSV ──► pandas cleaning ──► scipy stats               │
 │                              │               │                      │
 │                              ▼               ▼                      │
 │                    sklearn ML models    chi2 / pearsonr             │
@@ -65,45 +65,48 @@ The result is a zero-backend, data-driven dashboard that runs entirely from a si
 ## 📊 23 Insights Across 3 Groups
 
 ### Group A — Reproduced from Paper (8 insights)
+
 Insights from the research paper, now as interactive visualizations:
 
-| # | Insight | Chart |
-|---|---------|-------|
-| A1 | Plug-in threshold distribution — median 23.2%, IQR 20–30% | Histogram + median line |
-| A2 | Charging frequency — once/day most common, 39 people charge 4+× | Bar chart |
-| A3 | Device age distribution across respondents | Bar chart |
-| A4 | Charger wattage — 25–30W dominant, 65W+ growing | Donut/bar |
-| A5 | **Risk breakdown — 12.4% high-risk, 40.7% medium-risk** | Donut chart |
-| A6 | Charger wattage vs plug-in threshold — no significant correlation | Scatter |
-| A7 | Overnight charging prevalence | Pie + stat |
-| A8 | 4 user personas (Convenience, Opportunistic, Power User, 20-80 Rule) | Card grid |
+| #   | Insight                                                              | Chart                   |
+| --- | -------------------------------------------------------------------- | ----------------------- |
+| A1  | Plug-in threshold distribution — median 23.2%, IQR 20–30%            | Histogram + median line |
+| A2  | Charging frequency — once/day most common, 39 people charge 4+×      | Bar chart               |
+| A3  | Device age distribution across respondents                           | Bar chart               |
+| A4  | Charger wattage — 25–30W dominant, 65W+ growing                      | Donut/bar               |
+| A5  | **Risk breakdown — 12.4% high-risk, 40.7% medium-risk**              | Donut chart             |
+| A6  | Charger wattage vs plug-in threshold — no significant correlation    | Scatter                 |
+| A7  | Overnight charging prevalence                                        | Pie + stat              |
+| A8  | 4 user personas (Convenience, Opportunistic, Power User, 20-80 Rule) | Card grid               |
 
 ### Group B — Beyond the Paper (11 new insights)
+
 Derived from the same raw CSV — these are **not in the original paper**:
 
-| # | Insight | Method |
-|---|---------|--------|
-| B1 | Does overnight charging increase with device age? | Chi-square (scipy) |
-| B2 | Do gamers / heavy users cluster in high-risk? | Chi-square + crosstab |
-| B3 | Do older phones use lower-wattage chargers? | Grouped bar + chi-square |
-| B4 | Do gamers plug in at a lower battery % due to intensity? | groupby + box plot |
-| B5 | **Data-driven user clusters — statistically derived vs paper's manual personas** | K-Means (scikit-learn) |
-| B6 | Estimated daily energy waste per risk group (kWh) | pandas calculation |
-| B7 | **Pearson r: device age vs charging frequency with p-value** | pearsonr (scipy) |
-| B8 | **Logistic Regression: predict high-risk users** (CV accuracy, feature importance) | LogisticRegression (sklearn) |
-| B9 | Chi-square: charger wattage × risk category with p-value | chi2_contingency |
-| B10 | 20-80 rule actual adoption rate (%) | pandas filter |
-| B11 | Charging threshold percentile curve — safe zone vs real behavior | Quantile analysis |
+| #   | Insight                                                                            | Method                       |
+| --- | ---------------------------------------------------------------------------------- | ---------------------------- |
+| B1  | Does overnight charging increase with device age?                                  | Chi-square (scipy)           |
+| B2  | Do gamers / heavy users cluster in high-risk?                                      | Chi-square + crosstab        |
+| B3  | Do older phones use lower-wattage chargers?                                        | Grouped bar + chi-square     |
+| B4  | Do gamers plug in at a lower battery % due to intensity?                           | groupby + box plot           |
+| B5  | **Data-driven user clusters — statistically derived vs paper's manual personas**   | K-Means (scikit-learn)       |
+| B6  | Estimated daily energy waste per risk group (kWh)                                  | pandas calculation           |
+| B7  | **Pearson r: device age vs charging frequency with p-value**                       | pearsonr (scipy)             |
+| B8  | **Logistic Regression: predict high-risk users** (CV accuracy, feature importance) | LogisticRegression (sklearn) |
+| B9  | Chi-square: charger wattage × risk category with p-value                           | chi2_contingency             |
+| B10 | 20-80 rule actual adoption rate (%)                                                | pandas filter                |
+| B11 | Charging threshold percentile curve — safe zone vs real behavior                   | Quantile analysis            |
 
 ### Group C — Screenshot-Derived (4 insights)
+
 Extracted from 220+ raw battery screenshots using Gemini Vision API, never manually labelled:
 
-| # | Insight | Source |
-|---|---------|--------|
-| C1 | Screen-on time distribution across users | Gemini extraction |
-| C2 | Battery drain rate (% per hour) from 24-hr graph | Gemini extraction |
-| C3 | Time-of-charging events — morning vs night patterns | Graph slope analysis |
-| C4 | Cross-validation: screenshot battery % vs self-reported threshold | pandas merge |
+| #   | Insight                                                           | Source               |
+| --- | ----------------------------------------------------------------- | -------------------- |
+| C1  | Screen-on time distribution across users                          | Gemini extraction    |
+| C2  | Battery drain rate (% per hour) from 24-hr graph                  | Gemini extraction    |
+| C3  | Time-of-charging events — morning vs night patterns               | Graph slope analysis |
+| C4  | Cross-validation: screenshot battery % vs self-reported threshold | pandas merge         |
 
 ---
 
@@ -111,24 +114,25 @@ Extracted from 220+ raw battery screenshots using Gemini Vision API, never manua
 
 ### Analysis Layer (Google Colab)
 
-| Tool | Version | Role in this project |
-|------|---------|----------------------|
-| **Python** | 3.10+ | Everything |
-| **pandas** | 2.x | CSV loading, cleaning, groupby, crosstab, feature engineering, JSON export |
-| **numpy** | 1.x | Histogram binning, percentile computation, array math |
-| **scipy** | 1.x | `chi2_contingency` (B1–B3, B9), `pearsonr` (B7) |
-| **scikit-learn** | 1.x | `KMeans` (B5), `LogisticRegression` (B8), `StandardScaler`, `cross_val_score` |
-| **matplotlib / seaborn** | — | Colab-only validation plots — never shown in dashboard |
-| **google-generativeai SDK** | — | Gemini Vision API — sends each screenshot, parses structured JSON response |
-| **json** (stdlib) | — | Bridges Colab output to React via `master_data.json` |
-| **Google Colab** | — | Runtime environment, Drive mount, GPU/CPU, checkpoint resumability |
-| **Google Drive** | — | Screenshot storage (220+ images), output JSON persistence |
+| Tool                        | Version | Role in this project                                                          |
+| --------------------------- | ------- | ----------------------------------------------------------------------------- |
+| **Python**                  | 3.10+   | Everything                                                                    |
+| **pandas**                  | 2.x     | CSV loading, cleaning, groupby, crosstab, feature engineering, JSON export    |
+| **numpy**                   | 1.x     | Histogram binning, percentile computation, array math                         |
+| **scipy**                   | 1.x     | `chi2_contingency` (B1–B3, B9), `pearsonr` (B7)                               |
+| **scikit-learn**            | 1.x     | `KMeans` (B5), `LogisticRegression` (B8), `StandardScaler`, `cross_val_score` |
+| **matplotlib / seaborn**    | —       | Colab-only validation plots — never shown in dashboard                        |
+| **google-generativeai SDK** | —       | Gemini Vision API — sends each screenshot, parses structured JSON response    |
+| **json** (stdlib)           | —       | Bridges Colab output to React via `master_data.json`                          |
+| **Google Colab**            | —       | Runtime environment, Drive mount, GPU/CPU, checkpoint resumability            |
+| **Google Drive**            | —       | Screenshot storage (220+ images), output JSON persistence                     |
 
 ### AI / Vision Layer (Gemini API)
 
 The screenshot pipeline uses **Gemini Vision** (multimodal) to extract structured data from raw Android/iOS battery screenshots — handling cross-brand UI variation (Samsung Device Care, MIUI Security, iOS Battery, etc.) without any custom computer vision model.
 
 Each image is sent with a structured extraction prompt. The model returns a JSON object containing:
+
 ```json
 {
   "type": "full_day",
@@ -146,14 +150,14 @@ A **checkpoint-resume system** (`screenshot_checkpoint.json`) means the 200-imag
 
 ### Display Layer (React)
 
-| Tool | Version | Role |
-|------|---------|------|
-| **React** | 18 | Component framework |
-| **Recharts** | 2.x | BarChart, LineChart, PieChart, ScatterChart, ComposedChart |
-| **react-router-dom** | 6.x | Client-side routing across 4 pages |
-| **useState** | built-in | Global filter state (Phone Age / Usage Type selector) |
-| **useMemo** | built-in | Recomputes filtered aggregates without redundant recalculation on every render |
-| **useEffect** | built-in | Loads `master_data.json` once on mount |
+| Tool                 | Version  | Role                                                                           |
+| -------------------- | -------- | ------------------------------------------------------------------------------ |
+| **React**            | 18       | Component framework                                                            |
+| **Recharts**         | 2.x      | BarChart, LineChart, PieChart, ScatterChart, ComposedChart                     |
+| **react-router-dom** | 6.x      | Client-side routing across 4 pages                                             |
+| **useState**         | built-in | Global filter state (Phone Age / Usage Type selector)                          |
+| **useMemo**          | built-in | Recomputes filtered aggregates without redundant recalculation on every render |
+| **useEffect**        | built-in | Loads `master_data.json` once on mount                                         |
 
 ---
 
@@ -264,6 +268,4 @@ The research paper manually defined 4 user personas. This project runs K-Means (
 
 ## 🙏 Data & Attribution
 
-Survey data collected from 221 anonymous respondents via Google Forms as part of an academic study on smartphone charging behavior. Screenshots submitted by respondents were processed programmatically and never stored or shared beyond this analysis pipeline.
-
-Original research paper: *Smart Charging Survey* (PDF included in this repository).
+Survey data collected from 222 anonymous respondents via Google Forms as part of an academic study on smartphone charging behavior. Screenshots submitted by respondents were processed programmatically and never stored or shared beyond this analysis pipeline.

@@ -87,6 +87,18 @@ button:focus-visible, select:focus-visible, a:focus-visible {
   width: min(100%, 1440px);
   margin: 0 auto;
   padding: 32px 28px 52px;
+  animation: fadeInShell 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fadeInShell {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .page-title {
@@ -118,4 +130,83 @@ button:focus-visible, select:focus-visible, a:focus-visible {
     transition-duration: 0.01ms !important;
   }
   .chart-card-hover:hover { transform: none; }
+  .celebration-banner { animation: none !important; transition: none !important; }
+  .page-shell { animation: none !important; }
 }
+
+/* Celebration Banner Styles */
+.celebration-banner-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.celebration-banner {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background-color: rgba(14, 165, 233, 0.04);
+  border: 1px solid rgba(14, 165, 233, 0.2);
+  box-shadow: 0 2px 6px rgba(14, 165, 233, 0.02);
+  color: var(--text-primary);
+  font-size: 12.5px;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  animation: bannerGlowPulse 4s infinite alternate;
+}
+
+@keyframes bannerGlowPulse {
+  0% {
+    background-color: rgba(14, 165, 233, 0.03);
+    border-color: rgba(14, 165, 233, 0.18);
+    box-shadow: 0 2px 6px rgba(14, 165, 233, 0.02);
+  }
+  100% {
+    background-color: rgba(139, 92, 246, 0.08);
+    border-color: rgba(139, 92, 246, 0.35);
+    box-shadow: 0 4px 12px rgba(139, 92, 246, 0.06);
+  }
+}
+
+.celebration-banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+  transition: none;
+}
+
+.celebration-banner:hover {
+  transform: translateY(-1px);
+  background-color: rgba(14, 165, 233, 0.12) !important;
+  border-color: var(--accent-blue) !important;
+  box-shadow: 0 6px 16px rgba(14, 165, 233, 0.12) !important;
+}
+
+.celebration-banner:hover::after {
+  left: 150%;
+  transition: all 0.75s ease-in-out;
+}
+
+.celebration-banner .arrow {
+  transition: transform 0.2s ease;
+}
+
+.celebration-banner:hover .arrow {
+  transform: translateX(3px);
+}
+
