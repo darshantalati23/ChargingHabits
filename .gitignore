@@ -1,0 +1,16 @@
+# Private planning, analysis and guide markdown files (personal use only)
+Execution_Guide.md
+INDISCON_Refinement.md
+Paper_Critical_Analysis.md
+Project_Plan.md
+
+# Intermediate pipeline data and private checkpoints
+screenshot_checkpoint.json
+responses.csv
+
+# Node modules and build files inside dashboard
+charging-dashboard/node_modules/
+charging-dashboard/build/
+charging-dashboard/.env
+charging-dashboard/src/data/responses.csv
+charging-dashboard/public/data/master_data.json

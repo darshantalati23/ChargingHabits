@@ -48,7 +48,7 @@ const journeySteps = [
     title: "The Push",
     content: (
       <p>
-        That was when <a href="#" className="hover-underline-anim">Prof. Anupam Rana</a>, encouraged us to publish a paper. It felt like a stretch at the time. With anecdotal help from senior, <a href="#" className="hover-underline-anim">Akshat Panchasara</a>, on the data analysis side, we began the paper writing process.
+        That was when <a href="https://www.linkedin.com/in/prof-dr-anupam-rana-28017a18/" target="_blank" rel="noopener noreferrer" className="hover-underline-anim">Prof. Anupam Rana</a>, encouraged us to publish a paper. It felt like a stretch at the time. With anecdotal help from senior, <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover-underline-anim">Akshat Panchasara</a>, on the data analysis side, we began the paper writing process.
       </p>
     )
   },
@@ -62,7 +62,7 @@ const journeySteps = [
     title: "The Writing Process",
     content: (
       <p>
-        The process was long... Very long. Under the guidance of <a href="#" className="hover-underline-anim">Prof. Anupam Rana</a>, I <a href="#" className="hover-underline-anim">(Darshan Talati)</a>, <a href="#" className="hover-underline-anim">Dharmesh Upadhyay</a>, and <a href="#" className="hover-underline-anim">Sahil Abbas</a> stayed the course to see the writing through to the absolute end. We poured everything into that draft. We finally sent it off to IEEE ICEMCSI Bengaluru.
+        The process was long... Very long. Under the guidance of <a href="https://www.linkedin.com/in/prof-dr-anupam-rana-28017a18/" target="_blank" rel="noopener noreferrer" className="hover-underline-anim">Prof. Anupam Rana</a>, I <a href="https://www.linkedin.com/in/dkt-ekantik/" target="_blank" rel="noopener noreferrer" className="hover-underline-anim">(Darshan Talati)</a>, <a href="https://www.linkedin.com/in/dharmesh-upadhyay-470493354/" target="_blank" rel="noopener noreferrer" className="hover-underline-anim">Dharmesh Upadhyay</a>, and <a href="https://www.linkedin.com/in/sahil-abbas-765b9531b/" target="_blank" rel="noopener noreferrer" className="hover-underline-anim">Sahil Abbas</a> stayed the course to see the writing through to the absolute end. We poured everything into that draft. We finally sent it off to IEEE ICEMCSI Bengaluru.
       </p>
     )
   },
