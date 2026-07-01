@@ -1,0 +1,109 @@
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 50px;
+  animation: fadeDown 0.8s ease-out;
+}
+
+.about-subtitle {
+  color: var(--accent-blue);
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-top: -12px;
+}
+
+.journey-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-bottom: 60px;
+}
+
+.journey-step {
+  display: flex;
+  gap: 24px;
+  opacity: 0;
+  animation: slideUpFade 0.7s ease-out forwards;
+}
+
+.step-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48px;
+  flex-shrink: 0;
+}
+
+.step-icon-wrapper svg {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border-subtle);
+  border-radius: 50%;
+  color: var(--accent-violet);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+  z-index: 2;
+  transition: transform 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.journey-step:hover .step-icon-wrapper svg {
+  transform: scale(1.1);
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+}
+
+.step-connector {
+  flex-grow: 1;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--border-subtle) 0%, rgba(226, 232, 240, 0.4) 100%);
+  margin-top: 8px;
+  margin-bottom: 8px;
+  min-height: 40px;
+}
+
+.step-content {
+  padding-bottom: 40px;
+  padding-top: 8px;
+}
+
+.step-content h3 {
+  margin: 0 0 12px 0;
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.step-content p {
+  margin: 0 0 16px 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.step-content p:last-child {
+  margin-bottom: 0;
+}
+
+.punchy-line {
+  font-weight: 600;
+  color: var(--text-primary) !important;
+  font-size: 1.2rem !important;
+  margin: 24px 0 !important;
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUpFade {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}

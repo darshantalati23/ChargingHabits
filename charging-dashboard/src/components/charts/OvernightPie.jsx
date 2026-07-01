@@ -35,7 +35,7 @@ export default function OvernightPie({ data }) {
             dataKey="count"
             nameKey="label"
             cx="50%"
-            cy="45%"
+            cy="50%"
             outerRadius={84}
             labelLine={false}
             label={LABEL_FN}

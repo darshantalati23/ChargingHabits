@@ -5,6 +5,7 @@ import Overview from './pages/Overview';
 import DeviceAnalysis from './pages/DeviceAnalysis';
 import StatisticalFindings from './pages/StatisticalFindings';
 import BeyondPaper from './pages/BeyondPaper';
+import About from './pages/About';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/devices" element={<DeviceAnalysis />} />
             <Route path="/stats" element={<StatisticalFindings />} />
             <Route path="/deep" element={<BeyondPaper />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </main>
         <Footer />

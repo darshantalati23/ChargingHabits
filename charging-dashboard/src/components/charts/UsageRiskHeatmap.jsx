@@ -49,41 +49,44 @@ export default function UsageRiskHeatmap({ data, chiP }) {
 
   return (
     <ChartCard title="Usage Type × Risk Category">
-      <div style={{ overflowX: 'auto' }}>
-        <table style={{ width: '100%', borderCollapse: 'separate', borderSpacing: 4 }}>
-          <thead>
-            <tr>
-              <th style={{ ...th, textAlign: 'left', minWidth: 140 }}>Usage Group</th>
-              {RISK_ORDER.map(r => <th key={r} style={{ ...th, color: RISK_COLORS[r] }}>{RISK_LABELS[r]}</th>)}
-              <th style={{ ...th, color: 'var(--text-muted)' }}>Total</th>
-            </tr>
-          </thead>
-          <tbody>
-            {groups.map(({ group, total, risks }) => (
-              <tr key={group}>
-                <td style={{ fontSize: 12, color: 'var(--text-secondary)', padding: '6px 4px', whiteSpace: 'nowrap' }}>
-                  {group}
-                </td>
-                {RISK_ORDER.map(risk => {
-                  const count = risks[risk] ?? 0;
-                  return (
-                    <td key={risk} style={{
-                      background: cellBg(count), color: textColor(count),
-                      textAlign: 'center', padding: '9px 0',
-                      borderRadius: 'var(--radius-sm)', fontSize: 13, fontWeight: 600,
-                      border: '1px solid var(--border-subtle)',
-                    }}>
-                      {count}
-                    </td>
-                  );
-                })}
-                <td style={{ textAlign: 'center', fontSize: 12, color: 'var(--text-muted)', padding: '0 6px' }}>
-                  {total}
-                </td>
+      <div className="custom-scroll-container">
+        <div className="custom-scroll-area" style={{ maxHeight: 290 }}>
+          <table style={{ width: '100%', borderCollapse: 'separate', borderSpacing: 4 }}>
+            <thead>
+              <tr>
+                <th style={{ ...th, textAlign: 'left', minWidth: 140 }}>Usage Group</th>
+                {RISK_ORDER.map(r => <th key={r} style={{ ...th, color: RISK_COLORS[r] }}>{RISK_LABELS[r]}</th>)}
+                <th style={{ ...th, color: 'var(--text-muted)' }}>Total</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {groups.map(({ group, total, risks }) => (
+                <tr key={group}>
+                  <td style={{ fontSize: 12, color: 'var(--text-secondary)', padding: '6px 4px', whiteSpace: 'nowrap' }}>
+                    {group}
+                  </td>
+                  {RISK_ORDER.map(risk => {
+                    const count = risks[risk] ?? 0;
+                    return (
+                      <td key={risk} style={{
+                        background: cellBg(count), color: textColor(count),
+                        textAlign: 'center', padding: '9px 0',
+                        borderRadius: 'var(--radius-sm)', fontSize: 13, fontWeight: 600,
+                        border: '1px solid var(--border-subtle)',
+                      }}>
+                        {count}
+                      </td>
+                    );
+                  })}
+                  <td style={{ textAlign: 'center', fontSize: 12, color: 'var(--text-muted)', padding: '0 6px' }}>
+                    {total}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="scroll-blur-overlay" />
       </div>
       <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
         <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import useData from '../utils/useData';
 import './NavBar.css';
 
 const links = [
@@ -11,14 +10,12 @@ const links = [
 ];
 
 export default function NavBar() {
-  const { data } = useData();
-  const n = data?.meta?.valid_respondents ?? '…';
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
       <nav className="navbar">
-        <span className="navbar-title">Smartphone Charging Data Analysis</span>
+        <span className="navbar-title">SmartCharge</span>
 
         <div className="navbar-links">
           {links.map(({ to, label }) => (
@@ -33,7 +30,9 @@ export default function NavBar() {
           ))}
         </div>
 
-        <span className="navbar-badge">n = {n}</span>
+        <NavLink to="/about" className="about-btn">
+          Our Journey
+        </NavLink>
 
         <button
           className="hamburger"

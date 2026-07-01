@@ -15,7 +15,7 @@ export default function Footer() {
           className="celebration-banner"
         >
           <span>
-            Paper Accepted for Publication at <strong style={{ color: 'var(--text-accent)', fontWeight: 600 }}>IEEE CICON</strong>
+            Paper Accepted for Publication at <strong style={{ color: 'var(--text-accent)', fontWeight: 600 }}>IEEE CICON 2026</strong>
           </span>
           <span className="arrow" style={{ fontSize: '11px', opacity: 0.8 }}>→</span>
         </a>
@@ -26,10 +26,11 @@ export default function Footer() {
         <p style={{ margin: '0 0 8px', fontSize: 13, color: 'var(--text-secondary)' }}>
           Research Supervisor:{' '}
           <a
-            href="https://www.linkedin.com/in/anupam-rana" // TODO: Replace with Prof. (Dr.) Anupam Rana's LinkedIn URL later
+            href="https://www.linkedin.com/in/prof-dr-anupam-rana-28017a18/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: 'var(--accent-blue)', textDecoration: 'none', fontWeight: 600 }}
+            className="hover-underline-anim"
+            style={{ color: 'var(--accent-blue)', fontWeight: 600 }}
           >
             Prof. (Dr.) Anupam Rana
           </a>
@@ -42,7 +43,8 @@ export default function Footer() {
             href="https://www.linkedin.com/in/dkt-ekantik/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: 'var(--accent-blue)', textDecoration: 'none', fontWeight: 600 }}
+            className="hover-underline-anim"
+            style={{ color: 'var(--accent-blue)', fontWeight: 600 }}
           >
             Darshan Talati
           </a>
@@ -53,7 +55,8 @@ export default function Footer() {
             href="https://www.linkedin.com/in/dharmesh-upadhyay-470493354/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: 'var(--text-secondary)', textDecoration: 'none', borderBottom: '1px solid var(--border-active)' }}
+            className="hover-underline-anim"
+            style={{ color: 'var(--text-secondary)' }}
           >
             Dharmesh Upadhyay
           </a>
@@ -62,7 +65,8 @@ export default function Footer() {
             href="https://www.linkedin.com/in/sahil-abbas-765b9531b/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: 'var(--text-secondary)', textDecoration: 'none', borderBottom: '1px solid var(--border-active)' }}
+            className="hover-underline-anim"
+            style={{ color: 'var(--text-secondary)' }}
           >
             Sahil Abbas
           </a>

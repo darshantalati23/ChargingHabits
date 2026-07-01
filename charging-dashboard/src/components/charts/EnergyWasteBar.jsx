@@ -22,7 +22,7 @@ export default function EnergyWasteBar({ data }) {
 
   return (
     <ChartCard title="Estimated Daily Energy Waste by Risk Group">
-      <ResponsiveContainer width="100%" height={200}>
+      <ResponsiveContainer width="100%" height={370}>
         <BarChart data={sorted} margin={{ top: 20, right: 20, left: 10, bottom: 5 }}>
           <CartesianGrid {...gridProps} vertical={false} />
           <XAxis dataKey="label" {...axisProps} />
