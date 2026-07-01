@@ -95,9 +95,9 @@ While the original paper classified users qualitatively, this platform implement
 - **Statistical Data Pipeline:** Cleaned and analyzed a multi-feature dataset using **pandas**; applied **scipy** (Chi-Square, Pearson r) to validate and discover new charging behavior relationships.
 - **Applied Machine Learning:** Developed a **K-Means** segmentation model to challenge qualitative personas and trained a **Logistic Regression** classifier to predict device battery risk categories with cross-validated performance metrics.
 - **Computer Vision Pipeline:** Engineered an automated data extraction flow using the **Gemini Vision API** to programmatically translate 220+ unstructured Android/iOS battery screenshots into structured JSON, integrating checkpoint-resume and self-healing error handling.
-- **Interactive React Dashboard:** Built a highly responsive front-end dashboard utilizing **Recharts** for data visualization and optimized state propagation using `useMemo` for real-time global filter rendering. -->
+- **Interactive React Dashboard:** Built a highly responsive front-end dashboard utilizing **Recharts** for data visualization and optimized state propagation using `useMemo` for real-time global filter rendering.
 
----
+--- -->
 
 ## 🙏 Data & Privacy Attribution
 
