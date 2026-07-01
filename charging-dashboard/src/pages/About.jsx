@@ -48,7 +48,7 @@ const journeySteps = [
     title: "The Push",
     content: (
       <p>
-        That was when <a href="https://www.linkedin.com/in/prof-dr-anupam-rana-28017a18/" target="_blank" rel="noopener noreferrer" className="hover-underline-anim">Prof. Anupam Rana</a>, encouraged us to publish a paper. It felt like a stretch at the time. With anecdotal help from senior, <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover-underline-anim">Akshat Panchasara</a>, on the data analysis side, we began the paper writing process.
+        That was when <a href="https://www.linkedin.com/in/prof-dr-anupam-rana-28017a18/" target="_blank" rel="noopener noreferrer" className="hover-underline-anim">Prof. Anupam Rana</a>, encouraged us to publish a paper. It felt like a stretch at the time. With anecdotal help from senior, <a href="https://www.linkedin.com/in/akshat-panchasara-bbb43b312/" target="_blank" rel="noopener noreferrer" className="hover-underline-anim">Akshat Panchasara</a>, on the data analysis side, we began the paper writing process.
       </p>
     )
   },
