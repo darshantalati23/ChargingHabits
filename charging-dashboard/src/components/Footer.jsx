@@ -9,7 +9,7 @@ export default function Footer() {
       {/* Celebration Banner */}
       <div className="celebration-banner-container">
         <a
-          href="https://example.com/ieee-cicon-paper" // TODO: Replace with your actual publication URL later
+          href="https://www.linkedin.com/posts/dkt-ekantik_ieee-researchpaper-sustainability-ugcPost-7478332409852383232-FPW4" // TODO: Replace with your actual publication URL later
           target="_blank"
           rel="noopener noreferrer"
           className="celebration-banner"
